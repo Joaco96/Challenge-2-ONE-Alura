@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: 'Heebo', sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+.titulo{
+    justify-content:center;
+    display:flex;
+}
+
+.titulo-inicio {
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    justify-content:center;
+    color: black;
+    font-size: 3.5rem;
+    letter-spacing: 10px;
+    background-color:white;
+    text-align: center;
+    font-weight: bold;
+    width:90%;
+    padding:0.5rem;
+    margin-top: 1.5vh;
+}
+
+.div-pag-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    margin-top:15vh;
+}
+
+.boton-inicio {
+    width: 20rem;
+    height: 6rem;
+    border-radius: 18%;
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    border: 2px solid white;
+}
+.div-pag-agr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh; 
+}
+
+.boton-agr {
+    width: 18rem;
+    height: 5rem;
+    border-radius: 18%;
+    background-color: white;
+    color:black;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+.boton-inicio:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.boton-agr:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#div-invisible{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    visibility:hidden;
+}
+
+#mensajes-errores{
+    height:5vh;
+    font-weight: bold;
+    color:brown
+}
+
+#input-agregar-palabra{
+    border:none;
+    background: #f3f5fc;
+    outline: none;
+    color:black;
+    resize: none;
+    width:250px;
+    height:40px;
+}
+
+#input-agregar-palabra::placeholder {
+    color: black;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+#btn-añadir-palabra{
+    width: 9rem;
+    height: 2.2rem;
+    border-radius: 18%;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    border: 2px solid white;
+    margin:10px;
+}
+
+#btn-añadir-palabra:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    bottom:15px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+
+@media screen and (max-width:420px){
+    .titulo-inicio{
+        font-size: 2.5rem;
+    }
+}
+

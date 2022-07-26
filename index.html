@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juego Ahorcado</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style_index.css">
+    </head>
+    <body>
+        <div class="titulo">
+            <h1 class="titulo-inicio">Bienvenido a mi juego del Ahorcado!</h1>
+        </div>
+        <div class="div-pag-inicio">
+            <button onclick="location.href='juego.html'" class="boton-inicio">Iniciar Juego</button>
+        </div>
+        <div class="div-pag-agr">
+            <button class="boton-agr" onclick ="visible()">Agregar Palabra</button>
+        </div>
+        <div id="div-invisible">
+            <ul id="mensajes-errores"></ul>
+            <textarea id="input-agregar-palabra" placeholder="Ingresar palabra nueva, Máx. 10"></textarea>
+            <button id="btn-añadir-palabra" onclick ="agregarPalabra()">Agregar</button>
+        </div>
+        <footer>
+            Juego del Ahorcado hecho por Joaquin Cortés para el Programa ONE Alura - 2022
+        </footer>
+    </body>
+    <script src="js/agr-validPalabra.js"></script>
+    <script src="js/app.js"></script>
+</html>

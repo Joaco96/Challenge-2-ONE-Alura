@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juego Ahorcado</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style_juego.css">
+    </head>
+    <body>
+        <header id="head">
+            <div  class="titulo2">
+                <h1>Juego del Ahorcado</h1>
+            </div>
+        </header>
+        <main>
+            <div class="contenedor1">
+                <canvas id="lienzo" width="350" height="400"></canvas>
+            </div>
+            <section class="contenedor2">
+                <div id="div-palabras-aleatorias">
+                    <div class="texto">
+                        <ul id="espacios-caracteres"></ul>          
+                        <ul id="espacio-guiones"></ul>
+                    </div>
+                </div>
+                
+                <div id="div-botones">                    
+                    <div id="div-letras-utilizadas">
+                        <span id="span-utilizadas">Letras Utilizadas:</span>
+                        <ul id="letras-utilizadas"></ul>
+                    </div>
+                    <div id="div-2-botones">
+                        <button id="comenzar-juego">Nuevo Juego</button>
+                        <button onclick="location.href='index.html'" class="boton-atras">Volver</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            Juego del Ahorcado hecho por Joaquin Cortés para el Programa ONE Alura - 2022
+        </footer>
+        <script src="js/agr-validPalabra.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/canvas.js"></script>
+    </body>
+</html>

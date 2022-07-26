@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: 'Heebo', sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+
+#head{
+    justify-content:center;
+    display:flex;
+}
+
+.titulo2{
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    justify-content:center;
+    color: black;
+    font-size: 3.5rem;
+    letter-spacing: 10px;
+    background-color:white;
+    text-align: center;
+    font-weight: bold;    
+    width:90%;
+    padding:0.5rem;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+}
+
+.contenedor1{
+    display:flex;
+    justify-content: center;
+}
+
+canvas{
+    background-color: black;
+}
+
+.texto{
+    width:100%;
+    height:110px;
+}
+
+#espacios-caracteres{
+    display:flex;
+    justify-content:center;
+    padding-top:1%;
+    margin-top:10px;
+    margin-bottom:-80px;
+    font-size:75px;
+    font-family: 'Heebo', sans-serif;
+}
+
+#espacios-caracteres li{
+    margin:3px;
+    width:60px;
+    display:flex;
+    justify-content: center;
+}
+#espacio-guiones{
+    display:flex;
+    justify-content:center;
+    font-family: 'Heebo', sans-serif;
+    font-size:90px;
+    font-weight:100;
+}
+
+#espacio-guiones li{
+    margin:12.5px;
+}
+
+#div-letras-utilizadas{
+    display:flex;
+    justify-content:center;
+    font-weight:bold;
+    width: 100vw;
+    margin:3vw 0;
+    font-size: 25px;
+}
+
+#span-utilizadas{
+    padding-right: 1vw;
+}
+
+#letras-utilizadas{
+    display:flex;
+    width:142px;
+}
+
+#letras-utilizadas li{
+    margin:0 2px;
+    color:brown
+}
+
+#comenzar-juego{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 18%;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    border: 2px solid white;
+    margin:2px;
+}
+
+#comenzar-juego:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.boton-atras{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 18%;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    border: 2px solid white;
+    margin:2px;
+}
+
+.boton-atras:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#div-2-botones{
+    display:flex;
+    justify-content:center;
+    margin-top:2vh;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    bottom:15px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+
+@media screen and (max-width:1650px){
+    #div-letras-utilizadas{
+        margin:2vw 0;
+    }
+}
+
+@media screen and (max-width:755px){
+    .titulo2{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width:670px){
+    #espacios-caracteres{
+        font-size:55px;
+    }
+    #espacios-caracteres li{
+        margin:0.35px;
+    }
+    #espacio-guiones{
+        font-size:78px;
+    }
+}
+
+@media screen and (max-width:610px){
+    #espacios-caracteres{
+        font-size:35px;
+        width:100%;
+    }
+    #espacios-caracteres li{
+        margin-top:15px;
+        width: 40px;
+    }
+    #espacio-guiones{
+        font-size:45px;
+        margin-top:8px;
+    }
+    #espacio-guiones li{
+        margin: 45px 10px 0px 10px;
+    }    
+}
+
+@media screen and (max-width:420px){
+    #espacio-guiones li{
+        margin: 45px 5px 0px 5px;
+    }
+
+    #espacios-caracteres li{
+        width: 29.5px;
+    }
+}
+
+@media screen and (max-height:820px){
+    canvas{
+        height:300px;
+    }
+
+    .titulo2{
+        font-size: 1.7rem;
+    }
+
+    #div-letras-utilizadas{
+        margin:2vw 0;
+    }
+
+    .texto{
+        width:100%;
+        height:80px;
+    }
+    
+}
+
+@media screen and (max-height:690px){
+    #div-letras-utilizadas{
+        margin:0;
+    }
+}
