@@ -21,6 +21,8 @@ En esta segunda entrega les comparto mi trabajo en el Desarrollo del Segundo Cha
 - La página debe tener un campo para inserción de texto con la finalidad de adicionar nuevas palabras al juego, e un botón "Agregar palabra"
 
 
+
+
 ## GitHub Pages del Proyecto
 
 Link: https://joaco96.github.io/Challenge-2-ONE-Alura/
