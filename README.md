@@ -6,7 +6,7 @@
 En esta segunda entrega les comparto mi trabajo en el Desarrollo del Segundo Challenge del Curso ONE de Alura.
 <br><br> Se trata de un Juego del Ahorcado en donde pueden ir ingresando letras para lograr acertar la Palabra elegida aleatoriamente.
 
-##Requisitos:
+## Requisitos:
 - Debe funcionar solo con letras mayúsculas;
 - No deben ser utilizadas letras con acentos ni caracteres especiales;
 - Al completar o dibujo de la horca, debe ser mostrado un mensaje "Fin del juego" en la pantalla;
